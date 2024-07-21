@@ -1,4 +1,4 @@
-package com.example.kartiksapra.watchlist.service;
+package com.example.debjitdas.watchlist.service;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
