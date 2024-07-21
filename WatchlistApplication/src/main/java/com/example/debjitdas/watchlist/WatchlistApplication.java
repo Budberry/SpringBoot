@@ -1,4 +1,4 @@
-package com.example.kartiksapra.watchlist;
+package com.example.debjitdas.watchlist;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
