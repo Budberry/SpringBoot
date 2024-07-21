@@ -1,4 +1,4 @@
-package com.example.kartiksapra.watchlist.entity.validations;
+package com.example.debjitdas.watchlist.entity.validations;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
