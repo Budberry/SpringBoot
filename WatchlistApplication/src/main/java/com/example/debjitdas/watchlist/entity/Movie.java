@@ -1,4 +1,4 @@
-package com.example.kartiksapra.watchlist.entity;
+package com.example.debjitdas.watchlist.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,8 +7,8 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 
-import com.example.kartiksapra.watchlist.entity.validations.Priority;
-import com.example.kartiksapra.watchlist.entity.validations.Rating;
+import com.example.debjitdas.watchlist.entity.validations.Priority;
+import com.example.debjitdas.watchlist.entity.validations.Rating;
 
 @Entity
 public class Movie {
