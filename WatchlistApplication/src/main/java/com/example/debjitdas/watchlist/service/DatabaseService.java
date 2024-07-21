@@ -1,12 +1,12 @@
-package com.example.kartiksapra.watchlist.service;
+package com.example.debjitdas.watchlist.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.kartiksapra.watchlist.entity.Movie;
-import com.example.kartiksapra.watchlist.repository.MovieRepo;
+import com.example.debjitdas.watchlist.entity.Movie;
+import com.example.debjitdas.watchlist.repository.MovieRepo;
 
 @Service
 public class DatabaseService {
@@ -36,7 +36,7 @@ public class DatabaseService {
 	}
 
 	public void update(Movie movie, Integer id) {
-		// TODO Auto-generated method stub
+		
 		Movie toBeUpdated = getMovieById(id);
 		toBeUpdated.setTitle(movie.getTitle());
 		toBeUpdated.setRating(movie.getRating());
