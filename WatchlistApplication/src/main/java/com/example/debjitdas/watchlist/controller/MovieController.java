@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.view.RedirectView;
 
-import com.example.kartiksapra.watchlist.entity.Movie;
-import com.example.kartiksapra.watchlist.service.DatabaseService;
+import com.example.debjitdas.watchlist.entity.Movie;
+import com.example.debjitdas.watchlist.service.DatabaseService;
 
 @RestController
 public class MovieController {
